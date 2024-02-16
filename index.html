@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Form</title>
+  <style>
+.circle.blue {
+  fill: rgba(17, 173, 207, 1);
+}
+
+.circle.orange {
+  fill: rgba(255, 122, 0, 1);
+}
+
+.circle.red {
+  fill: rgba(249, 57, 57, 1);
+}
+
+.blue-circle{
+  margin-right: -2px;
+}
+
+.red-circle{
+  margin-left:-3px;
+}
+
+.top-part h1 {
+  width: 460px;
+  padding-top: 8px;
+  margin-left: -8px;
+  color: rgba(87, 87, 86, 1);
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+}
+
+td h1{
+  text-align: center;
+  padding: 0px;
+}
+
+.top-part svg{
+  padding-top: 10px;
+}
+
+.svg-container{
+  margin-left: 12px;
+}
+
+.top-line {
+  border: none;
+  border-top: 1px solid rgba(213, 215, 221, 1);
+  margin: 0px auto 10px;
+  width: 100%;
+
+}
+
+.bottom-line {
+  border: none;
+  border-top: 1px solid rgba(213, 215, 221, 1);
+  margin: 4px auto 10px;
+  width: 100%;
+}
+
+.to-text,
+.bottom-text {
+  padding-left: 24px;
+  font-size: 14px;
+  font-family: Roboto;
+  color: rgba(120, 120, 120, 1);
+  text-align: left; /* Вирівнювання тексту зліва */
+}
+
+.content{
+  width: 537px;
+  height: 377px;
+  margin-left: 24px;
+  font-size: 18px;
+  font-family: Roboto;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 52px;
+}
+
+.training-program{
+  color: rgba(14, 14, 14, 1);
+  font-weight: 700;
+}
+
+.course-back{
+  color: rgba(255, 122, 0, 1);
+  font-weight: 700;
+}
+
+footer{
+  width: 313px;
+  height: 139px;
+}
+
+.url{
+  text-align: left;
+  font-size: 12px;
+}
+
+td a{
+  margin-left: 24px;
+  font-family: Roboto;
+  font-weight: 400;
+  color: rgba(42, 61, 110, 1);
+}
+
+td img{
+  margin-left: 24px;
+}
+
+.linkedin{
+  margin-left: -27px;
+}
+
+.facebook{
+  margin-left: 11px;
+}
+
+.text{
+  font-size: 10px;
+  font-family: Roboto;
+  font-weight: 400;
+  margin-left: 24px;
+  margin-top: 0px;
+  color: rgba(87, 87, 86, 1);
+}
+  </style>
+</head>
+<body>
+  <div class="email-form" style="width: 576px; height: 687px; border-radius: 10px; background-color: #FFFFFF; margin: 0 auto; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+    <header>
+      <table style="width: 100%; border-collapse: collapse;">
+        <tr class="top-part">
+          <td>
+            <div class="svg-container">
+              <svg class="blue-circle" width="18" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="fill: rgba(17, 173, 207, 1); margin-right: -2px;">
+                <circle class="circle blue" cx="50" cy="50" r="30"/>
+              </svg>
+              <svg width="18" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="fill: rgba(255, 122, 0, 1);">
+                <circle class="circle orange" cx="50" cy="50" r="30" />
+              </svg>
+              <svg class="red-circle" width="18" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="fill: rgba(249, 57, 57, 1); margin-left: -3px;">
+                <circle class="circle red" cx="50" cy="50" r="30" />
+              </svg>
+            </div>
+          </td>
+          <td><h1 style="width: 460px; padding-top: 8px; margin-left: -8px; color: rgba(87, 87, 86, 1); font-family: Roboto; font-size: 11px; font-weight: 400; line-height: 13px; letter-spacing: 0em;">New Email</h1></td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <div class="top-line" style="border: none; border-top: 1px solid rgba(213, 215, 221, 1); margin: 0px auto 10px; width: 100%;"></div> <!-- Горизонтальна лінія -->
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4" class="to-text" style="padding-left: 24px; font-size: 14px; font-family: Roboto; color: rgba(120, 120, 120, 1); text-align: left; /* Вирівнювання тексту зліва */">To: Miroshnichenko Alexander</td>
+        </tr>
+        <tr>
+          <td colspan="4" class="bottom-text" style="padding-left: 24px; font-size: 14px; font-family: Roboto; color: rgba(120, 120, 120, 1); text-align: left; /* Вирівнювання тексту зліва */">Subject: Back-End  - Session Reminder</td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <div class="bottom-line" style="border: none; border-top: 1px solid rgba(213, 215, 221, 1); margin: 4px auto 10px; width: 100%;"></div> <!-- Горизонтальна лінія -->
+          </td>
+        </tr>
+        </table>
+        <header>
+          <div class="content" style="width: 537px; height: 377px; margin-left: 24px; font-size: 18px; font-family: Roboto; line-height: 24px; font-weight: 400; margin-bottom: 52px;">
+            Dear Alexander,<br><br>
+            This is a friendly reminder that the Course Back-End is scheduled to begin shortly. We are excited to have you as a mentor for this program.<br><br> <span class="training-program">Training Program:</span><span class="course-back"> Course Back-End</span><br><br>
+            Please be prepared to welcome and guide our participants through this enriching learning experience. Your insights and expertise are highly valued.
+            If you have any questions or need further information, please feel free to reach out to us.<br><br>
+            Thank you for your commitment to our learning community.<br><br>
+            Warm regards,<br>
+            Calaton Academy
+          </div>
+          <footer style="width: 313px; height: 139px;">
+            <table>
+              <tr>
+                <td>
+                  <a class="url" href="https://www.calaton.academy/uk" style="text-align: left; font-size: 12px; margin-left: 24px; font-family: Roboto; font-weight: 400; color: rgba(42, 61, 110, 1);">www.calaton.academy</a>
+                </td>
+                <td>
+                  <svg class="facebook" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: 11px;">
+                    <rect x="0.5" y="0.5" width="21" height="21" rx="5.5" stroke="#2A3D6E"/>
+                    <path d="M13.6979 6.59145C13.6979 6.52379 13.671 6.4589 13.6231 6.41105C13.5753 6.36321 13.5104 6.33633 13.4427 6.33633H12.1666C11.5241 6.30433 10.895 6.52787 10.4168 6.95811C9.9386 7.38835 9.65018 7.9903 9.61456 8.63245V10.0101H8.33852C8.27084 10.0101 8.20592 10.037 8.15806 10.0848C8.1102 10.1327 8.08331 10.1976 8.08331 10.2652V11.5919C8.08331 11.6596 8.1102 11.7244 8.15806 11.7723C8.20592 11.8201 8.27084 11.847 8.33852 11.847H9.61456V15.2657C9.61456 15.3334 9.64145 15.3982 9.68931 15.4461C9.73717 15.4939 9.80209 15.5208 9.86977 15.5208H11.401C11.4687 15.5208 11.5336 15.4939 11.5815 15.4461C11.6293 15.3982 11.6562 15.3334 11.6562 15.2657V11.847H12.9935C13.0503 11.8478 13.1057 11.8297 13.151 11.7955C13.1963 11.7613 13.2289 11.713 13.2436 11.6582L13.6111 10.3316C13.6213 10.2939 13.6226 10.2544 13.6151 10.2161C13.6076 10.1777 13.5914 10.1417 13.5677 10.1106C13.544 10.0796 13.5135 10.0544 13.4786 10.0369C13.4437 10.0195 13.4052 10.0103 13.3661 10.0101H11.6562V8.63245C11.6689 8.50615 11.7283 8.38912 11.8226 8.3042C11.917 8.21929 12.0397 8.17259 12.1666 8.17323H13.4427C13.5104 8.17323 13.5753 8.14635 13.6231 8.0985C13.671 8.05066 13.6979 7.98577 13.6979 7.9181V6.59145Z" fill="#2A3D6E"/>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="linkedin" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: -27px;">
+                    <rect x="0.5" y="0.5" width="21" height="21" rx="5.5" stroke="#2A3D6E"/>
+                    <path d="M8.68169 15.8125H6.77692V9.67853H8.68169V15.8125ZM7.72816 8.84181C7.11916 8.84181 6.625 8.33716 6.625 7.72816C6.625 7.43558 6.74123 7.15499 6.94811 6.94811C7.15499 6.74123 7.43558 6.625 7.72816 6.625C8.02073 6.625 8.30132 6.74123 8.50821 6.94811C8.71509 7.15499 8.83131 7.43558 8.83131 7.72816C8.83131 8.33716 8.33716 8.84181 7.72816 8.84181ZM15.8105 15.8125H13.91V12.8266C13.91 12.1149 13.8956 11.2023 12.9198 11.2023C11.9295 11.2023 11.7775 11.9754 11.7775 12.7754V15.8125H9.87475V9.67853H11.7014V10.5152H11.728C11.9823 10.0332 12.6034 9.52464 13.5301 9.52464C15.4578 9.52464 15.8122 10.7942 15.8122 12.443V15.8125H15.8105Z" fill="#2A3D6E"/>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <img src="banner.png" alt="Фотографія" style="margin-left: 24px;">
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <p class="text" style="font-size: 10px; font-family: Roboto; font-weight: 400; margin-left: 24px; margin-top: 0px; color: rgba(87, 87, 86, 1);">This email is for intended recipients only. If you are not an intended recipient, you must not disclose, copy or distribute this email to others or act upon the information contained in this email in any way.</p>
+                </td>
+              </tr>
+            </table>
+          </footer>
+    </div>
+</body>
+</html>
